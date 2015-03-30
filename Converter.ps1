@@ -1,4 +1,4 @@
-$path = Read-Host 'Dir'
+$path = Read-Host 'Directory Path'
 write-Host "Recursively? (y,n)"
 $confirmation = $host.UI.RawUI.ReadKey("NoEcho,IncludeKeyDown")
 if ($confirmation.VirtualKeyCode -eq 89) {
